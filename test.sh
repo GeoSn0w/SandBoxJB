@@ -1,12 +1,26 @@
 #!/bin/bash
-echo "🚀 GeoTerm2 Shell Script Demo"
+
+echo "GeoTerm2 Shell Script Demo"
+echo
+
 NAME="SandBoxJB"
 echo "Running on: $NAME without any jailbreak"
-echo "Current directory: $PWD"
+echo
+
+echo "[i] Current directory: $PWD"
 ls -la
-echo "On this device: "
+echo
+
+echo "[i] On this device:"
 uname -a
-echo "Now testing a real curl command!"
+echo
+
+echo "[i] Now testing a real curl command!"
 curl -s https://httpbin.org/get
+echo
+
+echo "[i] Attempting to run neofetch..."
 neofetch
-echo "✅ Script completed!"
+echo
+
+echo "[i] Script completed successfully."
